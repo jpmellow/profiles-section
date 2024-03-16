@@ -3,11 +3,10 @@ import { Container } from "react-bootstrap";
 import Link from "next/link";
 
 
-export default function Home() {
+export default function ProfilesPage() {
   return (
     <Container>
-      <Jumbotron />
-      <Link href="/about">About</Link>
+      <p>Profiles</p>
     </Container>
   );
 }
